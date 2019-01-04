@@ -1,0 +1,79 @@
+
+
+.projection{
+  background-size: 900px 800px;
+  background-repeat: no-repeat;
+  background-position: -280px -180px;
+  width:500px;
+  height: 500px;
+  /* border: 1px solid blue; */
+  display: inline-block;
+  position: absolute;
+  left: 500px;
+  animation: projanim 0.15s linear infinite;
+}
+
+#camera{
+  background-image: url("images/cam.png");
+  background-size: 900px 700px;
+  background-repeat: no-repeat;
+  background-position: -200px center;
+  width:500px;
+  height: 500px;
+  /* border: 1px solid red; */
+  display: inline-block;
+  position: absolute;
+  left: 35px;
+}
+
+#one{
+  background-image: url("images/17.png");
+  animation-delay: 0.1s;
+}
+
+#two{
+  background-image: url("images/16.png");
+}
+
+@keyframes projanim {
+
+  0%{
+    opacity:0.7;
+    top: 0.1px
+    background-size: 900px 810px;
+    /* background-size: 900px 900px; */
+
+  }
+
+  20%{
+    opacity:0.6;
+    top:0px;
+    background-size: 900px 820px;
+    /* background-size: 900px 800px; */
+  }
+
+  40%{
+    20%{
+      opacity:0.2;
+      top:-0.1px;
+      background-size: 900px 840px;
+      /* background-size: 900px 800px; */
+    }
+
+    60%{
+      20%{
+        opacity:0.4;
+        top:0.2px;
+        background-size: 900px 830px;
+        /* background-size: 900px 800px; */
+      }
+      80%{
+        20%{
+          opacity:0.1;
+          top:-0.2px;
+          background-size: 900px 850px;
+          /* background-size: 900px 800px; */
+        }
+  }
+
+}
