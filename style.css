@@ -1,79 +1,174 @@
 
-
 .projection{
   background-size: 900px 800px;
   background-repeat: no-repeat;
   background-position: -280px -180px;
   width:500px;
   height: 500px;
-  /* border: 1px solid blue; */
   display: inline-block;
   position: absolute;
   left: 500px;
-  animation: projanim 0.15s linear infinite;
+  animation: projanim 0.13s linear infinite;
+  -webkit-animation: projanim 0.13s linear infinite;
+  -o-animation: projanim 0.13s linear infinite;
+   -moz-animation: projanim 0.13s linear infinite;
 }
 
 #camera{
-  background-image: url("images/cam.png");
+  background-image: url("https://previews.dropbox.com/p/thumb/AATdCrfMGeMzRucAlLThpnNX8MdfNzZaWbU045itZiyEnP8wKxZu54PSlqvp3pUm01mxhDN7Tr8XJUWr9Evy4K8PpHZhjTa__RQCrsJ_LmrAc295e2-03c39S2KOHN_jtI7HMJf_itYO0Y2j7ZgpHWaLH0HF21rfVArMskDswuJJhXxfbq4mFCfugoEo22RDQn65uDCq_3n16UYdXAe3vVbB61bbOLYVZ784JNL9zR9ZQg/p.png?size=2048x1536&size_mode=3");
   background-size: 900px 700px;
   background-repeat: no-repeat;
   background-position: -200px center;
   width:500px;
-  height: 500px;
-  /* border: 1px solid red; */
+  height: 540px;
   display: inline-block;
   position: absolute;
   left: 35px;
 }
 
 #one{
-  background-image: url("images/17.png");
+  background-image: url("https://previews.dropbox.com/p/thumb/AAQAiV2mlRrzGxQgCJGAPaM-c2TtKiCJSbyHdIovEfNrEmRzfkEbjUqWVolbRBvmZW7_fGmOQMo8yo0gqOQjr2S_hCKqo90fr_08KJhumLDNH-biIivJ79F-DI2w9CO4cQSHVF87YJXMCrPMyz1-ALZAk2lGc2o0i6BY9UX3Tni2u5-_6HKxaNCRodjklQSDiMe5ftvk4EmLxjjVwE5JEs12kUz9QdVonrimPpsRjBtzaA/p.png?size=2048x1536&size_mode=3");
   animation-delay: 0.1s;
 }
 
 #two{
-  background-image: url("images/16.png");
+  background-image: url("https://previews.dropbox.com/p/thumb/AAQX6y_vEpbv8Fankjoz9khETuVl9CAyGvEyEIfd1uPLwAylMXVMv75XWOWoRGMLDSI4NF10szOKp2Nx_yG_zHHJ6WxnKNzwDT_n4olWui-td1SVVyOjxaSp9ylAgquO7U9iQBBAlNwfjtme9PXTaZDkstDCn2bWwP9XdEsBK_4nmvgAeWGyIkyJQhluXwf2BHPSgJZCxuINCXg0q3T9Saj3i26kCpLZutFB5FRJszahMg/p.png?size=2048x1536&size_mode=3");
 }
 
 @keyframes projanim {
 
   0%{
-    opacity:0.7;
-    top: 0.1px
+    opacity:0.9;
+    top: 0.1px;
     background-size: 900px 810px;
-    /* background-size: 900px 900px; */
-
   }
 
   20%{
     opacity:0.6;
     top:0px;
     background-size: 900px 820px;
-    /* background-size: 900px 800px; */
+   
   }
 
   40%{
-    20%{
       opacity:0.2;
       top:-0.1px;
       background-size: 900px 840px;
-      /* background-size: 900px 800px; */
+      
     }
 
     60%{
-      20%{
         opacity:0.4;
-        top:0.2px;
+        top:0.4px;
         background-size: 900px 830px;
-        /* background-size: 900px 800px; */
+        
       }
       80%{
-        20%{
-          opacity:0.1;
+          opacity:0.3;
           top:-0.2px;
           background-size: 900px 850px;
-          /* background-size: 900px 800px; */
         }
   }
 
-}
+@-o-keyframes projanim {
+
+  0%{
+    opacity:0.9;
+    top: 0.1px;
+    background-size: 900px 810px;
+  }
+
+  20%{
+    opacity:0.6;
+    top:0px;
+    background-size: 900px 820px;
+   
+  }
+
+  40%{
+      opacity:0.2;
+      top:-0.1px;
+      background-size: 900px 840px;
+      
+    }
+
+    60%{
+        opacity:0.4;
+        top:0.4px;
+        background-size: 900px 830px;
+        
+      }
+      80%{
+          opacity:0.3;
+          top:-0.2px;
+          background-size: 900px 850px;
+        }
+  }
+@-webkit-keyframes projanim {
+
+  0%{
+    opacity:0.9;
+    top: 0.1px;
+    background-size: 900px 810px;
+  }
+
+  20%{
+    opacity:0.6;
+    top:0px;
+    background-size: 900px 820px;
+   
+  }
+
+  40%{
+      opacity:0.2;
+      top:-0.1px;
+      background-size: 900px 840px;
+      
+    }
+
+    60%{
+        opacity:0.4;
+        top:0.4px;
+        background-size: 900px 830px;
+        
+      }
+      80%{
+          opacity:0.3;
+          top:-0.2px;
+          background-size: 900px 850px;
+        }
+  }
+@-moz-keyframes projanim {
+
+  0%{
+    opacity:0.9;
+    top: 0.1px;
+    background-size: 900px 810px;
+  }
+
+  20%{
+    opacity:0.6;
+    top:0px;
+    background-size: 900px 820px;
+   
+  }
+
+  40%{
+      opacity:0.2;
+      top:-0.1px;
+      background-size: 900px 840px;
+      
+    }
+
+    60%{
+        opacity:0.4;
+        top:0.4px;
+        background-size: 900px 830px;
+        
+      }
+      80%{
+          opacity:0.3;
+          top:-0.2px;
+          background-size: 900px 850px;
+        }
+  }
